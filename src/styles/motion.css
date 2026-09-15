@@ -1,0 +1,36 @@
+.reveal,
+.reveal-text {
+  opacity: 0;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal-text {
+    opacity: 1;
+    transform: none;
+  }
+
+  .hero__image,
+  .media-frame img,
+  .masonry__item img {
+    transform: none;
+    will-change: auto;
+  }
+}

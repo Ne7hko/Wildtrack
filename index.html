@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="WildTrack — tamo gde priroda priča, a trag vodi. Lov. Priroda. Barak. Teren." />
+    <meta name="theme-color" content="#10120F" />
+    <title>WildTrack — Lov. Priroda. Barak. Teren.</title>
+
+    <!-- Social & Open Graph Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="WildTrack — Lov. Priroda. Barak. Teren." />
+    <meta property="og:description" content="WildTrack — tamo gde priroda priča, a trag vodi. Lov. Priroda. Barak. Teren." />
+    <meta property="og:image" content="/images/hero-priroda.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="WildTrack — Lov. Priroda. Barak. Teren." />
+    <meta name="twitter:description" content="WildTrack — tamo gde priroda priča, a trag vodi. Lov. Priroda. Barak. Teren." />
+    <meta name="twitter:image" content="/images/hero-priroda.jpg" />
+
+    <!-- Font Preconnect & Performance Optimization -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="image" href="/images/hero-priroda.jpg" fetchpriority="high" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="cursor" data-cursor hidden></div>
+    <div class="cursor-dot" data-cursor-dot hidden></div>
+    <div class="page-veil" data-page-veil></div>
+
+    <a class="skip-link" href="#sadrzaj">Preskoči na sadržaj</a>
+
+    <header class="nav" data-nav>
+      <div class="nav__inner">
+        <a class="nav__logo" href="#pocetak" data-cursor-hover>
+          <img src="/images/logo.jpg" alt="" width="44" height="44" />
+          <span>WildTrack</span>
+        </a>
+
+        <nav class="nav__links" aria-label="Glavna navigacija">
+          <a href="#barak" data-cursor-hover>Barak</a>
+          <a href="#priroda" data-cursor-hover>Priroda</a>
+          <a href="#lov" data-cursor-hover>Lov</a>
+          <a href="#price" data-cursor-hover>Priče</a>
+          <a href="#saveti" data-cursor-hover>Saveti</a>
+          <a href="#galerija" data-cursor-hover>Galerija</a>
+          <a href="#video" data-cursor-hover>Video</a>
+        </nav>
+
+        <div class="nav__social">
+          <a
+            href="https://www.tiktok.com/@wildtrack92"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-cursor-hover
+            aria-label="TikTok @wildtrack92"
+          >
+            <svg class="icon-tiktok" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="M14.5 3c.3 2.4 1.6 4.1 4 4.5v2.3c-1.4 0-2.7-.5-4-1.3v6.7c0 3.5-2.8 6.3-6.4 6.3S1.8 18.7 1.8 15.2c0-3.4 2.7-6.2 6.2-6.3v2.4c-2.1.1-3.7 1.8-3.7 3.9 0 2.2 1.8 3.9 4 3.9s4-1.8 4-3.9V3h2.2Z"
+              />
+            </svg>
+            <span>TikTok</span>
+          </a>
+          <a
+            href="https://www.instagram.com/wild.track92/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-cursor-hover
+            aria-label="Instagram @wild.track92"
+          >
+            <svg class="icon-instagram" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2" fill="none" />
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2" fill="none" />
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <span>Instagram</span>
+          </a>
+        </div>
+
+        <button class="nav__toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="mobilni-meni">
+          <span class="sr-only">Meni</span>
+          <i data-lucide="menu" data-icon-open></i>
+          <i data-lucide="x" data-icon-close hidden></i>
+        </button>
+      </div>
+    </header>
+
+    <div class="mobile-menu" id="mobilni-meni" data-mobile-menu hidden>
+      <nav class="mobile-menu__nav" aria-label="Mobilna navigacija">
+        <a href="#barak" data-cursor-hover>Barak</a>
+        <a href="#priroda" data-cursor-hover>Priroda</a>
+        <a href="#lov" data-cursor-hover>Lov</a>
+        <a href="#price" data-cursor-hover>Priče</a>
+        <a href="#saveti" data-cursor-hover>Saveti</a>
+        <a href="#galerija" data-cursor-hover>Galerija</a>
+        <a href="#video" data-cursor-hover>Video</a>
+      </nav>
+      <div class="mobile-menu__social">
+        <a href="https://www.tiktok.com/@wildtrack92" target="_blank" rel="noopener noreferrer">TikTok @wildtrack92</a>
+        <a href="https://www.instagram.com/wild.track92/" target="_blank" rel="noopener noreferrer">Instagram @wild.track92</a>
+      </div>
+    </div>
+
+    <main id="sadrzaj">
+      <section class="hero" id="pocetak">
+        <div class="hero__media">
+          <img
+            class="hero__image"
+            src="/images/hero-priroda.jpg"
+            alt="Otvoreni teren u sumraku — visoka trava, vinograd i linija šume"
+            fetchpriority="high"
+          />
+          <div class="hero__overlay"></div>
+        </div>
+        <div class="hero__content">
+          <p class="eyebrow reveal-text">WildTrack</p>
+          <h1 class="reveal-text">Tamo gde priroda priča, a trag vodi.</h1>
+          <p class="hero__sub reveal-text">Lov. Priroda. Barak. Teren.</p>
+          <a class="btn reveal-text" href="#barak" data-cursor-hover>Istraži WildTrack</a>
+        </div>
+        <a class="hero__scroll" href="#barak" data-cursor-hover>
+          <span>Naniže</span>
+          <i data-lucide="chevron-down"></i>
+        </a>
+      </section>
+
+      <section class="section barak" id="barak">
+        <div class="barak__intro">
+          <p class="eyebrow reveal">Barak</p>
+          <h2 class="reveal">Pas. Teren. Instinkt.</h2>
+        </div>
+
+        <figure class="barak__portrait media-frame reveal">
+          <img
+            src="/images/barak.jpg"
+            alt="Barak, lovački pas, u prirodnom svetlu"
+            loading="lazy"
+            data-parallax="0.08"
+            data-cursor-image
+          />
+        </figure>
+
+        <div class="barak__copy">
+          <p class="reveal muted">Barak je lovački pas — ozbiljan, pristojan, deo terena.</p>
+          <p class="reveal">Na WildTrack-u on nije posed, već pratilac: čist duh, istiniti trag, tihi naznak što je dokle stiglo.</p>
+          <p class="reveal muted">Ova sekcija ostaje otvorena za fotografije i kratke beleške sa terena — bez poziranja, bez laži.</p>
+        </div>
+      </section>
+
+      <section class="section priroda" id="priroda">
+        <div class="section__intro section__intro--split">
+          <div>
+            <p class="eyebrow reveal">Priroda</p>
+            <h2 class="reveal">Digitalna razglednica terena</h2>
+          </div>
+          <p class="lede reveal">Fotografija ima prvu reč. Tekst dolazi kasnije, ako ga teren zasluži.</p>
+        </div>
+
+        <figure class="full-bleed media-frame reveal">
+          <img
+            src="/images/hero-priroda.jpg"
+            alt="Vinograd, suva trava i šuma na horizontu"
+            loading="lazy"
+            data-parallax="0.12"
+            data-cursor-image
+          />
+        </figure>
+
+        <div class="horizon">
+          <article class="horizon__slot filled">
+            <img src="/images/hero-priroda.jpg" alt="Detalj terena u sumraku" loading="lazy" data-cursor-image />
+          </article>
+          <article class="horizon__slot awaiting" aria-label="Mesto za buduću fotografiju prirode">
+            <span>Čeka fotografiju</span>
+          </article>
+          <article class="horizon__slot awaiting" aria-label="Mesto za buduću fotografiju prirode">
+            <span>Čeka fotografiju</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section lov" id="lov">
+        <div class="lov__grid">
+          <div class="lov__text">
+            <p class="eyebrow reveal">Lov</p>
+            <h2 class="reveal">Život na terenu</h2>
+            <p class="reveal">Lov na WildTrack-u nije katalog događaja. Ovde će stajati samo ono što se zaista zabeleži — fotografija, trag, trenutak.</p>
+            <p class="muted reveal">Nema izmišljenih lova, lokacija ni rezultata. Prostor je spreman za tvoje beleške.</p>
+          </div>
+          <div class="lov__frames">
+            <div class="awaiting-frame" aria-label="Mesto za fotografiju sa terena">
+              <span>Fotografija terena</span>
+            </div>
+            <div class="awaiting-frame awaiting-frame--short" aria-label="Mesto za fotografiju sa terena">
+              <span>Fotografija terena</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section video" id="video">
+        <div class="section__intro">
+          <p class="eyebrow reveal">Video</p>
+          <h2 class="reveal">Trag na pokretnoj slici</h2>
+        </div>
+        <a
+          class="video-card"
+          href="https://vt.tiktok.com/ZSqQb8aEE/"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-cursor-hover
+        >
+          <img src="/images/hero-priroda.jpg" alt="" loading="lazy" />
+          <div class="video-card__veil"></div>
+          <div class="video-card__play">
+            <i data-lucide="play"></i>
+          </div>
+          <div class="video-card__meta">
+            <span>Otvori TikTok video</span>
+            <strong>@wildtrack92</strong>
+          </div>
+        </a>
+        <p class="center muted reveal">
+          Video se otvara na TikTok-u.
+          <a href="https://www.tiktok.com/@wildtrack92" target="_blank" rel="noopener noreferrer" data-cursor-hover>Profil @wildtrack92</a>
+        </p>
+      </section>
+
+      <section class="section journal" id="price">
+        <div class="section__intro">
+          <p class="eyebrow reveal">Priče</p>
+          <h2 class="reveal">Dnevnik sa terena</h2>
+        </div>
+        <div class="journal__list">
+          <article class="journal__entry awaiting-entry">
+            <time>—</time>
+            <h3>Prva priča još nije zabeležena</h3>
+            <p>Ovde će stajati kratki zapisi, bez izmišljenih događaja.</p>
+          </article>
+          <article class="journal__entry awaiting-entry">
+            <time>—</time>
+            <h3>Sledeći unos</h3>
+            <p>Struktura je spremna za prave beleške sa terena.</p>
+          </article>
+          <article class="journal__entry awaiting-entry">
+            <time>—</time>
+            <h3>Sledeći unos</h3>
+            <p>Dokumentarni ritam — datum, naslov, kratak tekst.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section saveti" id="saveti">
+        <div class="section__intro">
+          <p class="eyebrow reveal">Saveti</p>
+          <h2 class="reveal">Beleške za kasnije</h2>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <p class="card__index">01</p>
+            <h3>Priroda</h3>
+            <p>Kartica spremna za tvoje zabeleške. Bez izmišljenih činjenica.</p>
+          </article>
+          <article class="card">
+            <p class="card__index">02</p>
+            <h3>Teren</h3>
+            <p>Ovde može da stane kratak savet vezan za kretanje i boravak napolju.</p>
+          </article>
+          <article class="card">
+            <p class="card__index">03</p>
+            <h3>Lovačka tradicija</h3>
+            <p>Mesto za tradiciju koju ti zapišeš — kada budeš spreman.</p>
+          </article>
+          <article class="card">
+            <p class="card__index">04</p>
+            <h3>Život na otvorenom</h3>
+            <p>Prazan okvir za korisne informacije iz prakse.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section gallery" id="galerija">
+        <div class="section__intro">
+          <p class="eyebrow reveal">Galerija</p>
+          <h2 class="reveal">Fotografije terena</h2>
+        </div>
+        <div class="masonry" data-gallery>
+          <button class="masonry__item masonry__item--wide" type="button" data-gallery-item data-src="/images/hero-priroda.jpg" data-alt="Pejzaž sa terena — vinograd i šuma u sumraku" data-cursor-image>
+            <img src="/images/hero-priroda.jpg" alt="Pejzaž sa terena — vinograd i šuma u sumraku" loading="lazy" />
+          </button>
+          <button class="masonry__item masonry__item--tall" type="button" data-gallery-item data-src="/images/barak.jpg" data-alt="Barak, lovački pas" data-cursor-image>
+            <img src="/images/barak.jpg" alt="Barak, lovački pas" loading="lazy" />
+          </button>
+          <div class="masonry__item masonry__item--awaiting" aria-label="Mesto za buduću fotografiju">
+            <span>Čeka fotografiju</span>
+          </div>
+          <div class="masonry__item masonry__item--awaiting masonry__item--wide" aria-label="Mesto za buduću fotografiju">
+            <span>Čeka fotografiju</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <img src="/images/logo.jpg" alt="" width="72" height="72" />
+      <strong>WildTrack</strong>
+      <p>Tamo gde priroda priča, a trag vodi.</p>
+      <div class="footer__links">
+        <a href="https://www.tiktok.com/@wildtrack92" target="_blank" rel="noopener noreferrer" data-cursor-hover>TikTok</a>
+        <a href="https://www.instagram.com/wild.track92/" target="_blank" rel="noopener noreferrer" data-cursor-hover>Instagram</a>
+      </div>
+    </footer>
+
+    <div class="lightbox" data-lightbox hidden>
+      <button class="lightbox__close" type="button" data-lightbox-close aria-label="Zatvori">
+        <i data-lucide="x"></i>
+      </button>
+      <button class="lightbox__nav lightbox__nav--prev" type="button" data-lightbox-prev aria-label="Prethodna fotografija">
+        <i data-lucide="chevron-left"></i>
+      </button>
+      <figure class="lightbox__figure">
+        <img data-lightbox-image alt="" />
+        <figcaption data-lightbox-caption></figcaption>
+      </figure>
+      <button class="lightbox__nav lightbox__nav--next" type="button" data-lightbox-next aria-label="Sledeća fotografija">
+        <i data-lucide="chevron-right"></i>
+      </button>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
